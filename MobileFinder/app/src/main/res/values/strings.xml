@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone Finder</string>
+    <string name="stop">Stop</string>
+    <string name="save">Save</string>
+    <string name="enter_code">Enter code</string>
+    <string name="change_code">Change Code</string>
+    <string name="old_code">Old code</string>
+    <string name="new_code">New code</string>
+    <string name="confirm_code">Confirm code</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="enter_code_to_stop">Enter code to stop alarm!</string>
+    <string name="code_is_wrong">Code is wrong!</string>
+    <string name="not_match_code">New code and confirm do not match!</string>
+    <string name="code_is_change">Code is changed!</string>
+    <string name="code_is_saved">Code is saved!</string>
+    <!--<string name ="help">Misplacing your phone or someone steals your phone but it's still in the same room...PhoneFinder will help you find it.By sending an SMS with the setup code to your phone, it will fire alert sound. After you found it, stop the music by using the code. The sound works even if your phone's in silent mode</string>-->
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <color name="line">@color/button_material_light</color>
+    <color name="button">#F1F1F1</color>
+    <color name="error">#E81C23</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#FFFFFFFF</color>
+    <color name="text">#7BBF6A</color>
+</resources>

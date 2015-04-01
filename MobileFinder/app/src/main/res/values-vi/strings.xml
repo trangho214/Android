@@ -1,0 +1,18 @@
+<?xml version ="1.0" encoding="utf-8"?>
+    <resources>
+    <string name="app_name">Tìm điện thoại</string>
+    <string name="stop">Dừng</string>
+    <string name="save">Lưu</string>
+    <string name="enter_code">Nhập mật mã</string>
+    <string name="change_code">Thay đổi mật mã</string>
+    <string name="old_code">Mật mã cũ</string>
+    <string name="new_code">Mật mã mới</string>
+    <string name="confirm_code">Nhập lại mật mã</string>
+    <string name="cancel">Hủy</string>
+    <string name="done">OK</string>
+    <string name="enter_code_to_stop">Nhập mật mã để ngừng báo động.</string>
+    <string name="code_is_wrong">Mật mã không đúng!!!</string>
+    <string name="not_match_code">Mật mã và xác nhận không trùng khớp!</string>
+    <string name="code_is_change">Mật mã đã thay đổi!</string>
+    <string name="code_is_saved">Đã lưu mật mã</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="softs.hnt.com.mobilefinder" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmPlayer"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ChangeSound"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ChangeCode"
+            android:label="@string/change_code"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Splash"></activity>
+        <activity android:name=".EnterCode"
+            android:screenOrientation="portrait"
+            android:label="@string/enter_code"
+            android:parentActivityName=".Splash"></activity>
+        <receiver android:name=".IncomingSMS" android:enabled="true">
+            <!--<receiver android:name=".IncomingSMS" android:exported="true" android:enabled="true">-->
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+                <!--<action android:name="android.provider.Telephony.SMS_RECEIVED" android:priority="999"/>-->
+                <!--<action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>-->
+                <!--<action android:name="android.net.wifi.STATE_CHANGE"/>-->
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone Finder</string>
+    <string name="stop">Stop</string>
+    <string name="save">Gem</string>
+    <string name="enter_code">Indtast kode</string>
+    <string name="change_code">Skift kode</string>
+    <string name="old_code">Den aktuelle kode</string>
+    <string name="new_code">Ny kode</string>
+    <string name="confirm_code">Gentag kode</string>
+    <string name="cancel">Annuller</string>
+    <string name="done">OK</string>
+    <string name="enter_code_to_stop">Indtast kode for at stop alarm!</string>
+    <string name="code_is_wrong">Kode er forkert!</string>
+    <string name="not_match_code">Koder matcher ikke!</string>
+    <string name="code_is_change">Kode er skiftet!</string>
+    <string name="code_is_saved">Kode er gemt!</string>
+    <!--<string name ="help">Misplacing your phone or someone steals your phone but it's still in the same room...PhoneFinder will help you find it.By sending an SMS with the setup code to your phone, it will fire alert sound. After you found it, stop the music by using the code. The sound works even if your phone's in silent mode</string>-->
+</resources>
