@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ScrollView
+        style="@style/m_w">
+        <LinearLayout
+            style="@style/m_w.v">
+            <LinearLayout
+                android:background="@drawable/full_round"
+                style="@style/m_w.v"
+                android:layout_margin="20dp">
+                <EditText
+                    android:id="@+id/edUserName_SignUp"
+                    style="@style/rectangle_EditText.topRound"
+                    android:singleLine="true"
+                    android:hint="@string/user_name" />
+                <EditText
+                    android:id="@+id/edPassword_SignUp"
+                    style="@style/rectangle_EditText"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:hint="@string/password" />
+                <EditText
+                    android:id="@+id/edConfirmPassword_SignUp"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    style="@style/rectangle_EditText.bottomRound"
+                    android:hint="@string/confirm_password" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/full_round"
+                style="@style/m_w.v"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="1dp">
+                <EditText
+                    android:id="@+id/edEmail_SignUp"
+                    android:inputType="textEmailAddress"
+                    style="@style/rectangle_EditText.topRound"
+                    android:singleLine="true"
+                    android:hint="@string/email" />
+                <EditText
+                    android:id="@+id/edPhoneNumber_SignUp"
+                    style="@style/rectangle_EditText"
+                    android:singleLine="true"
+                    android:inputType="phone"
+                    android:hint="@string/phone_number" />
+                <EditText
+                    android:id="@+id/edAddress_SigUp"
+                    style="@style/rectangle_EditText"
+                    android:singleLine="true"
+                    android:hint="@string/address" />
+                <Spinner
+                    android:id="@+id/spDistrict_SigUp"
+                    style="@style/rectangle_EditText" />
+                <Spinner
+                    android:id="@+id/spCity_SigUp"
+                    style="@style/rectangle_EditText.bottomRound" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txtCaution_SignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/caution"/>
+            <Button
+                android:id="@+id/btnSignMeUp_SignUp"
+                style="@style/full_button"
+                android:layout_margin="20dp"
+                android:text="@string/sign_me_up"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

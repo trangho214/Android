@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToySwap</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</string>
+    <string name="address">Adresse</string>
+    <string name="about">Om ToySwap</string>
+    <string name="bla">bla</string>
+    <string name="city">By</string>
+    <string name="come_and_see">Tag en tur</string>
+    <string name="choose_action">Vælg handling</string>
+    <string name="confirm">Beskræftelse</string>
+    <string name="changing">Skiftning...</string>
+    <string name="confirm_text">Er du sikker at du vil slette</string>
+    <string name="comment">Kommentarter</string>
+    <string name="confirm_password">Gentag password</string>
+    <string name="create">Opret</string>
+    <string name="create_post">Opret opslag</string>
+    <string name="description">Beskrivelse</string>
+    <string name="delete_post">Slet opslag</string>
+    <string name="email">E-mail</string>
+    <string name="edit_post">Rediger opslag</string>
+    <string name="forgot_password"><u>Glemt password/brugernavn?</u></string>
+    <string name="favourite">Favorit</string>
+    <string name="group">Aldersgruppe:</string>
+    <string name="km">km</string>
+    <string name="login">Log ind</string>
+    <string name="log_out">Log ud</string>
+    <string name="my_posts">Mine opslag</string>
+    <string name="name">Navn</string>
+    <string name="newPass">Nyt password</string>
+    <string name="number">Nummer</string>
+    <string name="no">Nej</string>
+    <string name="password">Password</string>
+    <string name="post_code">Post code</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="photo">Photo</string>
+    <string name="sign_up">Opret bruger</string>
+    <string name="sign_me_up">Opret</string>
+    <string name="save">Gem</string>
+    <string name="select_a_title">Vælg en titel</string>
+    <string name="street">Vej</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="tlf.">Tlf.</string>
+    <string name="title">Titel</string>
+    <string name="user_name">Brugernavn</string>
+    <string name="yes">Yes</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="age_group">
+        <item>1 -3 år gamle </item>
+        <item>4-6 år gamle </item>
+        <item>7-9 år gamle </item>
+    </string-array>
+    <string-array name="odense_district">
+        <item>Odense C</item>
+        <item>Odense V</item>
+        <item>Odense NV</item>
+        <item>Odense SØ</item>
+        <item>Odense M</item>
+        <item>Odense NØ</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>Hjem</item>
+        <item>Skift password</item>
+        <item>Indstillinger</item>
+        <item>Log ud</item>
+        <item>Share</item>
+        <item>Om ToySwap</item>
+    </string-array>
+    <string-array name="nav_drawer_guest_items">
+        <item>Hjem</item>
+        <item>Share</item>
+        <item>Om ToySwap</item>
+    </string-array>
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+    </string-array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

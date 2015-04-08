@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- The navigation drawer -->
+    <RelativeLayout
+        android:id="@+id/drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawer_title_shape"
+        android:orientation="vertical"
+        android:layout_gravity="start" >
+        <!--<ImageView-->
+            <!--android:id="@+id/ivUserImage_Drawer"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/portrait"/>-->
+        <TextView
+            android:id="@+id/txtUserName_Drawer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Country" />
+
+        <ListView android:id="@+id/drawer_list"
+            android:layout_below="@+id/txtUserName_Drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="0.1dp"
+            android:textColor="@android:color/white"
+            android:listSelector="@drawable/drawer_list_selector"
+            android:background="#fff" />
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

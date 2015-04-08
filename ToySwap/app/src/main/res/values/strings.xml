@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToySwap</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</string>
+    <string name="address">Address</string>
+    <string name="about">About</string>
+    <string name="bla">bla</string>
+    <string name="city">City</string>
+    <string name="come_and_see">Come and see</string>
+    <string name="choose_action">Choose action</string>
+    <string name="confirm">Confirm</string>
+    <string name="changing">Changing...</string>
+    <string name="confirm_text">Are you sure you want to delete</string>
+    <string name="comment">Comments</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="create">Create</string>
+    <string name="create_post">Create post</string>
+    <string name="description">Description</string>
+    <string name="delete_post">Delete post</string>
+    <string name="email">Email</string>
+    <string name="edit_post">Edit post</string>
+    <string name="forgot_password"><u>Forgot password/username?</u></string>
+    <string name="favourite">Favourite</string>
+    <string name="group">Age group:</string>
+    <string name="km">km</string>
+    <string name="login">Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="my_posts">My post</string>
+    <string name="name">Name</string>
+    <string name="no">No</string>
+    <string name="newPass">New password</string>
+    <string name="number">Number</string>
+    <string name="password">Password</string>
+    <string name="post_code">Post code</string>
+    <string name="phone_number">Phone number</string>
+    <string name="photo">Photo</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_me_up">Sign me up!</string>
+    <string name="save">Save</string>
+    <string name="select_a_title">Select a title</string>
+    <string name="street">Street</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="tlf.">Tlf.</string>
+    <string name="title">Title</string>
+    <string name="user_name">Username</string>
+    <string name="yes">Yes</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <string-array name="age_group">
+        <item>1 -3 years old </item>
+        <item>4-6 years old </item>
+        <item>7-9 years old </item>
+    </string-array>
+    <string-array name="odense_district">
+        <item>Odense C</item>
+        <item>Odense V</item>
+        <item>Odense NV</item>
+        <item>Odense SØ</item>
+        <item>Odense M</item>
+        <item>Odense NØ</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Change password</item>
+        <item>Settings</item>
+        <item>Log out</item>
+        <item>Share</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="nav_drawer_guest_items">
+        <item>Home</item>
+        <item>Share</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+        <item>@drawable/ic_drawer</item>
+    </string-array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+
+

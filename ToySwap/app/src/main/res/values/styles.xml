@@ -1,0 +1,86 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+
+    <style name="w_w">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="m_m">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="m_w">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="m_w.v">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="m_w.h">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="m_w.RightLeft">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+    <style name="m_w.RightLeft.Bottom">
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="m_w.Margin">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="textMedium" parent="m_w">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="textSmall" parent="m_w">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+
+    <style name="textLargeTitle" parent="m_w">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="cautionText" parent="w_w">
+        <item name="android:textColor">@color/caution</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="rectangle_EditText">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="rectangle_EditText.White">
+        <item name="android:background">@drawable/rectangle_white</item>
+    </style>
+    <style name="rectangle_EditText.round">
+        <item name="android:background">@drawable/full_round</item>
+    </style>
+    <style name="rectangle_EditText.topRound">
+        <item name="android:background">@drawable/top_round</item>
+    </style>
+    <style name="rectangle_EditText.bottomRound">
+        <item name="android:background">@drawable/bottom_round</item>
+    </style>
+    <style name="full_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/rectangle_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="splash_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:background">@drawable/login_transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

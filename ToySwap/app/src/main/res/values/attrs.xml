@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trim_length" format="integer"></attr>
+        <attr name="android_text" format="string"></attr>
+        <attr name="span_length" format="integer"></attr>
+        <attr name="spannable" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="TabStyle">
+        <attr name="backgroundColor" format="integer"></attr>
+    </declare-styleable>
+</resources>

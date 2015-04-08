@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="softs.hnt.com.toyswap" >
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-feature android:name="android.hardware.camera"  android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+<!--.DrawerActivity-->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Login"
+            android:label="@string/login"
+            android:parentActivityName=".Splash">
+            <!--parent activity meta-date to support 4.o and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Splash"></meta-data>
+        </activity>
+
+        <activity android:name=".SignUp"
+            android:label="@string/sign_up"
+            android:parentActivityName=".Splash">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Splash"></meta-data>
+        </activity>
+
+        <activity android:name=".ShowPost"
+            android:parentActivityName=".DrawerActivity">
+            <!--parent activity meta-date to support 4.o and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DrawerActivity"></meta-data>
+        </activity>
+        <activity android:name=".DrawerActivity"></activity>
+
+        <activity android:name=".ForgotPassword"
+            android:label="@string/forgot_password"
+            android:parentActivityName=".Login">
+            <!--parent activity meta-date to support 4.0 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Login"></meta-data>
+        </activity>
+
+        <activity android:name=".CreatePost"
+            android:label="@string/create_post"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".DrawerActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DrawerActivity"></meta-data>
+            </activity>
+    </application>
+
+</manifest>

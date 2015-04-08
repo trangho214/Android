@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/txtCaution_Login"
+        android:scrollbars="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/caution"
+        android:layout_gravity="center"/>
+        <LinearLayout
+            android:background="@drawable/full_round"
+            style="@style/m_w.v"
+            android:layout_margin="20dp">
+
+            <EditText
+                android:id="@+id/edUserName_Login"
+                style="@style/rectangle_EditText"
+                android:background="@drawable/top_round"
+                android:hint="@string/user_name" />
+            <EditText
+                android:id="@+id/edPassword_Login"
+                style="@style/rectangle_EditText"
+                android:background="@drawable/bottom_round"
+                android:inputType="textPassword"
+                android:hint="@string/password" />
+        </LinearLayout>
+    <TextView
+        android:id="@+id/txtForgotPassword_Login"
+        style="@style/textSmall"
+        android:text="@string/forgot_password"
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        />
+    <Button
+        android:id="@+id/btnLogin_Login"
+        style="@style/full_button"
+        android:layout_margin="20dp"
+        android:text="@string/login"/>
+</LinearLayout>

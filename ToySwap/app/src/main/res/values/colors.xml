@@ -1,0 +1,14 @@
+<resources >
+    <color name="background">#eeeeee</color>
+    <color name="line_of_editText">#bbbbbb</color>
+    <color name="black">#000000</color>
+    <color name="button">#333999</color>
+    <color name="button_transparent">#B3333999</color>
+    <color name="action_bar_background_highlight">#eeeeee</color>
+    <color name="create_post_background">#e2ecd3</color>
+    <color name="caution">#e00707</color>
+    <color name="drawer_list_background">#eeeeee</color>
+    <color name="drawer_list_background_pressed">#B3333999</color>
+    <color name="drawer_list_item_title">#000000</color>
+    <color name="drawer_list_divider">#000000</color>
+</resources>

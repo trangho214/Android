@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/list_selector"
+    android:layout_margin="@dimen/margin_top"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp">
+    <ImageView
+        android:id="@+id/ivImage_PostItem"
+        android:layout_margin="8dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"/>
+    <ProgressBar
+        android:id="@+id/progress_postItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/txtTitle_PostItem"
+        android:layout_margin="@dimen/margin_text_item"
+        style="@style/textMedium"
+        android:layout_toRightOf="@id/ivImage_PostItem"
+        android:text="@string/bla"/>
+    <TextView
+        android:id="@+id/txtDescription_PostItem"
+        style="@style/textSmall"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:layout_margin="@dimen/margin_text_item"
+        android:text="@string/lorem_ipsum"
+        android:maxLines="3"
+        android:layout_alignLeft="@+id/txtTitle_PostItem"
+        android:layout_below="@+id/txtTitle_PostItem"/>
+    <TextView
+        android:id="@+id/txtDistance_PostItem"
+        style="@style/textSmall"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/margin_text_item"
+        android:text="@string/km"/>
+</RelativeLayout>
