@@ -17,7 +17,7 @@ public class SampleData {
         List<SampleObject1> sampleObject1s = new ArrayList<SampleObject1>();
         for (int i = 0; i<20; i++)
         {
-            sampleObject1s.add(new SampleObject1("title", "0000000d", "date", "Hoang Thi Than Thuong","TP HCM", "123456", "abc@gmail.com",
+            sampleObject1s.add(new SampleObject1("title " + i, "0000000d", "date", "Hoang Thi Than Thuong","TP HCM", "123456", "abc@gmail.com",
                     "114 cu xa do thanh",0.2, 10000, "Description", childSample()));
         }
         return sampleObject1s;

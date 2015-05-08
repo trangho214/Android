@@ -122,16 +122,6 @@ public class DashboardFragment extends Fragment  {
         }
     };
 
-//    private List<SampleObject1> sampleData()
-//    {
-//        sampleObject1List = new ArrayList<SampleObject1>();
-//        for (int i =0; i<19; i++)
-//        {
-//            sampleObject1List.add(new SampleObject1(getResources().getString(R.string.lorum_ipsum), "123", String.valueOf(i)));
-//        }
-//        return sampleObject1List;
-//    }
-
     @Override
     public void onDetach() {
         super.onDetach();

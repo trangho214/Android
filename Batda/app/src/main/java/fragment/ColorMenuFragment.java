@@ -58,12 +58,11 @@ public class ColorMenuFragment extends ListFragment {
 //                newContent = new ColorFragment(R.color.red);
                 break;
             case 1:
-                newContent = new OrdersDetailsFragment();
-               // newContent = new ColorFragment(R.color.green);
+                newContent = new OrderDetailsFragmentWithExpandable();
+//                newContent = new ColorFragment(R.color.green);
                 break;
             case 2:
-                newContent = new OrderDetailsFragmentWithExpandable();
-//                newContent = new ColorFragment(R.color.blue);
+                newContent = new ColorFragment(R.color.blue);
                 break;
             case 3:
                 newContent = new ColorFragment(android.R.color.white);
