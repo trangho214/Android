@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/loActionBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="@dimen/value_60">
+        <ImageView
+            android:id="@+id/ivDrawer"
+            android:layout_width="@dimen/value_50"
+            android:layout_height="@dimen/value_50"
+            android:src="@drawable/ic_action_previous_item"
+            android:onClick="onClick"/>
+        <EditText
+            android:id="@+id/edSearch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/value_50"
+            android:background="@drawable/rectangle_grey"
+            android:layout_weight="1"
+            android:drawableRight="@android:drawable/ic_menu_search"/>
+        <ImageView
+            android:id="@+id/ivNotification"
+            android:layout_width="@dimen/value_50"
+            android:layout_height="@dimen/value_50"
+            android:src="@android:drawable/ic_menu_upload"
+            android:onClick="onClick"/>
+        <ImageView
+            android:id="@+id/ivAlert"
+            android:layout_width="@dimen/value_50"
+            android:layout_height="@dimen/value_50"
+            android:src="@android:drawable/ic_menu_upload"
+                android:onClick="onClick"/>
+
+    </LinearLayout>
+
+<FrameLayout
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>

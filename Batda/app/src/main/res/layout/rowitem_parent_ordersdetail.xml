@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_RowItemParent"
+        android:layout_width="@dimen/value_50"
+        android:layout_height="@dimen/value_50"
+        android:layout_marginRight="@dimen/value_10"
+        android:src="@drawable/eagle"
+        />
+    <TextView
+        android:id="@+id/txtName_RowItemParent"
+        android:layout_toRightOf="@+id/iv_RowItemParent"
+        android:layout_toLeftOf="@+id/txtTime_RowItemParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_customer_name"/>
+    <TextView
+        android:id="@+id/txtCity_RowItemParent"
+        android:layout_alignLeft="@+id/txtName_RowItemParent"
+        android:layout_toLeftOf="@+id/txtPrice_RowItemParent"
+        android:layout_below="@+id/txtName_RowItemParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_city"/>
+
+    <TextView
+        android:id="@+id/txtTime_RowItemParent"
+        android:layout_toLeftOf="@+id/ivExpandIcon_RowItemParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_date"/>
+    <TextView
+        android:id="@+id/txtPrice_RowItemParent"
+        android:layout_below="@+id/txtTime_RowItemParent"
+        android:layout_toLeftOf="@+id/ivExpandIcon_RowItemParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_price"/>
+
+    <ImageView
+        android:id="@+id/ivExpandIcon_RowItemParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_next_item"/>
+
+</RelativeLayout>

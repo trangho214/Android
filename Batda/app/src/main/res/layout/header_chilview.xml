@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lv_background">
+    <View
+        android:id="@+id/vLine_ChildView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/value_2"
+        android:layout_marginBottom="@dimen/value_2"
+        android:background="@color/black"></View>
+    <ImageView
+        android:layout_below="@+id/vLine_ChildView"
+        android:id="@+id/ivSMS_HeaderChildView"
+        android:layout_width="@dimen/value_50"
+        android:layout_height="@dimen/value_50"
+        android:layout_marginLeft="@dimen/value_60"
+        android:src="@drawable/eagle"/>
+    <TextView
+        android:id="@+id/txtPhoneNumber_HeaderChildView"
+        android:layout_toRightOf="@id/ivSMS_HeaderChildView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/value_10"
+        android:layout_marginRight="@dimen/value_10"
+        android:text="012356"/>
+    <ImageView
+        android:id="@+id/ivCall_HeaderChildView"
+        android:layout_width="@dimen/value_50"
+        android:layout_height="@dimen/value_50"
+        android:src="@drawable/eagle"
+        android:layout_toRightOf="@+id/txtPhoneNumber_HeaderChildView"/>
+
+    <TextView
+        android:id="@+id/txtEmail_HeaderChildView"
+        android:layout_below="@+id/ivSMS_HeaderChildView"
+        android:layout_alignLeft="@id/ivSMS_HeaderChildView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"/>
+
+    <TextView
+        android:id="@+id/txtAddress_HeaderChildView"
+        android:layout_below="@+id/txtEmail_HeaderChildView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ivSMS_HeaderChildView"
+        android:text="Address"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@id/txtAddress_HeaderChildView"></View>
+</RelativeLayout>

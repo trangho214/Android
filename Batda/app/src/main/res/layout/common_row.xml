@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtNewOrders_CommonRow"
+            android:layout_alignBottom="@+id/ivNext_CommonRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/value_10"
+            android:text="@string/new_orders"/>
+        <TextView
+            android:id="@+id/waitingList_CommonRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/value_10"
+            android:layout_marginLeft="@dimen/value_20"
+            android:layout_alignBottom="@+id/ivNext_CommonRow"
+            android:layout_toRightOf="@+id/txtNewOrders_CommonRow"
+            android:text="@string/waiting_shopping_cart"/>
+        <ImageButton
+            android:id="@+id/ivNext_CommonRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_next_item"
+            android:layout_alignParentRight="true"/>
+        <ImageButton
+            android:id="@+id/ivPrevious_CommonRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ivNext_CommonRow"
+            android:src="@drawable/ic_action_previous_item"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/value_2"
+        android:layout_below="@+id/txtNewOrders_CommonRow"
+        android:background="@color/black"></View>
+
+</RelativeLayout>
+
+

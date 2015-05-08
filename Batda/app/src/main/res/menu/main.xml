@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_search"
+        android:title="@string/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="com.actionbarsherlock.widget.SearchView"/>
+    <item android:id="@+id/action_github"
+        android:icon="@drawable/ic_action_github"
+        android:showAsAction="always"
+        android:title="@string/github_label"
+        android:titleCondensed="@string/github"
+        android:visible="true">
+    </item>
+    <item android:id="@+id/action_message"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_github"
+        android:title="@string/chat">
+    </item>
+</menu>
