@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lommelygte</string>
+    <string name="turn_on">Sluk Lys</string>
+    <string name="turn_off">Tænd Lys</string>
+</resources>

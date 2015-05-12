@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:background="@drawable/free_switch_icon">
+
+
+    <ToggleButton
+        android:id="@+id/btnToggle"
+        android:layout_width="70dp"
+        android:layout_height="210dp"
+        android:layout_centerInParent="true"
+        android:textOn="@string/turn_on"
+        android:textOff="@string/turn_off">
+    </ToggleButton>
+    <ImageButton
+        android:id="@+id/btnSound"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/sound_on_icon"/>
+
+    <ImageView
+        android:id="@+id/imgLight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_launcher"
+        />
+
+
+</RelativeLayout>
